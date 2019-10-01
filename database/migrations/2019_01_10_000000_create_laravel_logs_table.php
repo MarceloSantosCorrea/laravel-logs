@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class LaravelLogsTable extends Migration
+class CreateLaravelLogsTable extends Migration
 {
 
     /**
