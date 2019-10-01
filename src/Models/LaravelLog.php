@@ -1,6 +1,6 @@
 <?php
 
-namespace MarceloCorrea\src\Models;
+namespace MarceloCorrea\LaravelLogs\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

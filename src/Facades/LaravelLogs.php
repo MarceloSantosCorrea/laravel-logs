@@ -1,6 +1,6 @@
 <?php
 
-namespace MarceloCorrea\src\Facades;
+namespace MarceloCorrea\LaravelLogs\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

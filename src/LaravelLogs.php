@@ -1,6 +1,6 @@
 <?php
 
-namespace MarceloCorrea\src;
+namespace MarceloCorrea\LaravelLogs;
 
 class LaravelLogs
 {
