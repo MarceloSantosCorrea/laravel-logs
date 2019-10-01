@@ -6,6 +6,7 @@
             "email": "marcelocorrea229@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": ">=7",
         "illuminate/support": "^5.5|^6",
