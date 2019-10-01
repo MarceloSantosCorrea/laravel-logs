@@ -1,0 +1,29 @@
+{
+    "name": "marcelo-correa/laravel-logs",
+    "authors": [
+        {
+            "name": "Marcelo Corrêa",
+            "email": "marcelocorrea229@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "illuminate/support": "^5.5|^6",
+        "monolog/monolog": "^1.24"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarceloCorrea\\LaravelLogs\\LogsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelLogs": "MarceloCorrea\\LaravelLogs\\Facades\\LaravelLogs"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}
