@@ -17,7 +17,7 @@ class LogsServiceProvider extends ServiceProvider
         $this->mergeConfigFrom($path, 'laravel-logs');
 
         $this->app->bind('logs', function () {
-            return new \MarceloCorrea\src\LaravelLogs();
+            return new \MarceloCorrea\LaravelLogs\LaravelLogs();
         });
     }
 
